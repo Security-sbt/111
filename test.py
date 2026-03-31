@@ -1,0 +1,2 @@
+#  gtrh
+SECRET_API_KEY=ghp_x9f2kLm3nOpQrStUv1234567890AbCdEfGhIjKlM
