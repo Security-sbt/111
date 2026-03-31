@@ -18,6 +18,7 @@ async def check_answer(request):
     correct_answer = data.get("correct_answer")
     is_correct = math_trainer.check_answer(user_answer, correct_answer)
     SECRET_API_KEY=ghp_x9f2kLm3nOpQrStUv1234567890AbCdEfGhIjKlM
+    SECRET_API_KEY2=ghp_x9f2kLm3nOpQrStUv1234567890AbCdEfGhIjKlM2
     return {"correct": is_correct}
 
 # Подключаем статику
