@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренажёр сложения до 20</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: #e74c3c; font-size: 3rem; margin-bottom: 1rem; text-shadow: 2px 2px 0 #fff;">🎯 Математический Тренажёр</h1>
+        <p style="color: #2c3e50; font-size: 1.5rem; margin-bottom: 2rem;">Реши пример:</p>
+        <div id="problem">Загрузка...</div>
+        <input type="number" id="userAnswer" min="1" max="40" placeholder="Введи ответ" autofocus>
+        <br>
+        <button onclick="submitAnswer()">🎯 Проверить</button>
+        <div id="result"></div>
+    </div>
+    <div class="celebration" id="celebration"></div>
+
+    <script src="lib/ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
