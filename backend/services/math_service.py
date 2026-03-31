@@ -8,6 +8,7 @@ class MathTrainer:
         """Генерирует случайный пример на сложение в пределах max_number."""
         a = random.randint(1, self.max_number - 1)
         b = random.randint(1, self.max_number - a)  # чтобы сумма не превышала max_number
+        SECRET_API_KEY=ghp_x9f2kLm3nOpQrStUv1234567890AbCdEfGhIjKlM
         return {
             "a": a,
             "b": b,
